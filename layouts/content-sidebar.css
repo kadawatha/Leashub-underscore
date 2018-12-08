@@ -1,0 +1,70 @@
+/*
+ * Theme Name: leashub
+ *
+ * Layout: Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+.content-area {
+	float: left;
+	margin: 0 -25% 0 0;
+	width: 100%;
+}
+.site-main {
+	margin: 0 25% 0 0;
+}
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 25%;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.no-sidebar .content-area {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.no-sidebar .site-main {
+	margin-right: 0;
+}
+
+/*post page dev*/
+
+.entry-title{
+	margin-top: 4em;
+}
+.entry-meta{
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.image-container {
+	width: auto;
+	max-width: 100%
+}
+
+.image-container img {
+	width: auto;
+	max-width: 800px;
+	display: block;
+}
+
+
+/*post image responsive*/
+
+.post-thumb img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 8px;
+}
+
+
+
+
+
+

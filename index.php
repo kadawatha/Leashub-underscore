@@ -77,8 +77,8 @@ get_header('new');
                 </div>
 
 
-                <?php post_pagination(); ?>
-
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination mt-5">
 
 <?php
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
@@ -86,7 +86,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 query_posts(array(
     'post_type' => 'post', // You can add a custom post type if you like
     'paged' => $paged,
-    'posts_per_page' => 10 // limit of posts
+    'posts_per_page' => 2 // limit of posts
 ));
 
 if ( have_posts() ) :  while ( have_posts() ) : the_post();
@@ -95,7 +95,13 @@ if ( have_posts() ) :  while ( have_posts() ) : the_post();
 
 endwhile;
 
+
+
+
     post_pagination();
+
+
+
 
 else :
 
@@ -104,24 +110,9 @@ else :
 endif;
 ?>
 
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination mt-5">
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" tabindex="-1">Previous</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
+
+
+               </ul>
                 </nav>
 
 
@@ -284,6 +275,10 @@ endif;
         </div>
     </div>
 </div>
+
+
+
+
 
 
 

@@ -39,7 +39,7 @@
     <!-- Bootstrap-Core-CSS -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');  ?>/css/style.css" type="text/css" media="all" />
     <!-- Style-CSS -->
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');  ?>/css/font-awesome.css">
+
 
     <!-- Font-Awesome-Icons-CSS -->
     <!-- //Custom-Files -->
@@ -50,6 +50,9 @@
           rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin-ext" rel="stylesheet">
     <!-- //Web-Fonts -->
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');  ?>/css/font-awesome.css">
+
+
 
     <?php wp_head(); ?>
 </head>

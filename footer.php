@@ -15,8 +15,8 @@
 
 
 
-<footer class="footer-emp-w3ls py-5">
-    <div class="container py-xl-5 py-lg-3">
+<footer class="footer-emp-w3ls">
+    <div class="container py-lg-3">
         <div class="row footer-top">
             <div class="col-lg-5 footer-grid-wthree">
                 <h1 class="footer-title text-white mb-4">Get In Touch</h1>
@@ -55,16 +55,33 @@
             <div class="col-lg-4 footer-grid-wthree mt-lg-0 mt-5">
                 <div class="footer-title">
                     <a class="footer_font_style" href="index.html">
-                        <img src="images/logo2.png" class="img-fluid" alt="">Leashub
+                        <img src="images/logo2.png" class="img-fluid" alt="">LeasHuB
                     </a>
                 </div>
-                <p class="copy-right text-center mt-4">&copy; <?php echo date("Y"); ?> Leashub. All Rights Reserved | Design by
-                    <a href="admoo.lk"> admoo.lk </a>
-                </p>
+
+                <br>
+                                <div class="subscribe-info-w3l text-center bg-white rounded py-md-0 py-5 px-md-0 px-4">
+                                    <form action="#" method="post" class="bg-light p-4">
+                                        <i class="fa fa-envelope mr-sm-3 mr-2" aria-hidden="true"></i>
+                                        <input type="email" name="email" placeholder="Enter your Email..." required="">
+                                        <input type="submit" value="Submit">
+                                    </form>
+                                </div>
+
+
             </div>
         </div>
+
+        <p class="copy-right text-center mt-4">&copy; <?php echo date("Y"); ?> Leashub. All Rights Reserved | Design by
+            <a target="_blank" href="http://www.admoo.lk/"> Admoo Digital Marketing (pvt)Ltd </a>
+            <br>
+            <a target="_blank" href="http://www.admoo.lk/"> admoo.lk </a>
+        </p>
+
+
     </div>
 </footer>
+
 
 
 
@@ -142,6 +159,23 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

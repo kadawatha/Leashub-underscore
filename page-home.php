@@ -9,8 +9,6 @@ get_header();
             <h3 class="text-banner-agile text-uppercase text-white font-weight-bold">
                 latest & exclusive collections for Vehicle Lovers
             </h3>
-            <p class="mt-3 mb-5 banner-para-wthree"><span class="text-white font-weight-bold ">2018</span> Trending Styles,
-                Car Fashion.</p>
             <a href="about.html" class="btn button-style">Read More</a>
         </div>
     </div>

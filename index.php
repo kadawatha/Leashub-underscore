@@ -38,6 +38,9 @@ get_header('new');
 
                     <?php
 
+
+
+
                     if ( have_posts() ) :
 
                         if ( is_home() && ! is_front_page() ) :
@@ -74,13 +77,32 @@ get_header('new');
                 </div>
 
 
+                <?php post_pagination(); ?>
 
 
+<?php
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
+query_posts(array(
+    'post_type' => 'post', // You can add a custom post type if you like
+    'paged' => $paged,
+    'posts_per_page' => 10 // limit of posts
+));
 
+if ( have_posts() ) :  while ( have_posts() ) : the_post();
 
+    // post content goes here...
 
+endwhile;
 
+    post_pagination();
+
+else :
+
+// no posts found message goes here...
+
+endif;
+?>
 
                 <nav aria-label="Page navigation example">
                     <ul class="pagination mt-5">
@@ -101,6 +123,10 @@ get_header('new');
                         </li>
                     </ul>
                 </nav>
+
+
+
+
                 <!-- //left side -->
             </div>
             <!-- right side -->
@@ -174,14 +200,7 @@ get_header('new');
                                     <h4>
                                         <a href="single.html" class="text-dark">Sed ut perspiciatis unde omni</a>
                                     </h4>
-                                    <ul class="wthree_blog_events_list mt-2">
-                                        <li class="mr-2 text-dark">
-                                            <i class="fa fa-calendar mr-2" aria-hidden="true"></i>15/05/18</li>
-                                        <li>
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                            <a href="single.html" class="text-dark ml-2">Admin</a>
-                                        </li>
-                                    </ul>
+
                                 </div>
                             </div>
                             <div class="row posts-grid mt-4">
@@ -194,14 +213,7 @@ get_header('new');
                                     <h4>
                                         <a href="single.html" class="text-dark">Sed ut perspiciatis unde omni</a>
                                     </h4>
-                                    <ul class="wthree_blog_events_list mt-2">
-                                        <li class="mr-2 text-dark">
-                                            <i class="fa fa-calendar mr-2" aria-hidden="true"></i>23/05/18</li>
-                                        <li>
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                            <a href="single.html" class="text-dark ml-2">Admin</a>
-                                        </li>
-                                    </ul>
+
                                 </div>
                             </div>
                             <div class="row posts-grid mt-4">
@@ -214,14 +226,7 @@ get_header('new');
                                     <h4>
                                         <a href="single.html" class="text-dark">Sed ut perspiciatis unde omni</a>
                                     </h4>
-                                    <ul class="wthree_blog_events_list mt-2">
-                                        <li class="mr-2 text-dark">
-                                            <i class="fa fa-calendar mr-2" aria-hidden="true"></i>13/06/18</li>
-                                        <li>
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                            <a href="single.html" class="text-dark ml-2">Admin</a>
-                                        </li>
-                                    </ul>
+
                                 </div>
                             </div>
                         </div>

@@ -170,14 +170,6 @@ get_header('new');
                                     <h4>
                                         <a href="single.html" class="text-dark">Sed ut perspiciatis unde omni</a>
                                     </h4>
-                                    <ul class="wthree_blog_events_list mt-2">
-                                        <li class="mr-2 text-dark">
-                                            <i class="fa fa-calendar mr-2" aria-hidden="true"></i>15/05/18</li>
-                                        <li>
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                            <a href="single.html" class="text-dark ml-2">Admin</a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="row posts-grid mt-4">
@@ -190,14 +182,6 @@ get_header('new');
                                     <h4>
                                         <a href="single.html" class="text-dark">Sed ut perspiciatis unde omni</a>
                                     </h4>
-                                    <ul class="wthree_blog_events_list mt-2">
-                                        <li class="mr-2 text-dark">
-                                            <i class="fa fa-calendar mr-2" aria-hidden="true"></i>23/05/18</li>
-                                        <li>
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                            <a href="single.html" class="text-dark ml-2">Admin</a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="row posts-grid mt-4">
@@ -210,14 +194,7 @@ get_header('new');
                                     <h4>
                                         <a href="single.html" class="text-dark">Sed ut perspiciatis unde omni</a>
                                     </h4>
-                                    <ul class="wthree_blog_events_list mt-2">
-                                        <li class="mr-2 text-dark">
-                                            <i class="fa fa-calendar mr-2" aria-hidden="true"></i>13/06/18</li>
-                                        <li>
-                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                            <a href="single.html" class="text-dark ml-2">Admin</a>
-                                        </li>
-                                    </ul>
+
                                 </div>
                             </div>
                         </div>

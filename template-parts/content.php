@@ -18,7 +18,7 @@
         if ( is_singular() ) :
             the_title( '<h1 class="card-title">', '</h1>' );
         else :
-            the_title( '<h2 class="card-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+            the_title( '<h2 class="card-title"><a href="#" rel="bookmark">', '</a></h2>' );
         endif;
 
 
@@ -57,9 +57,11 @@ if (has_post_thumbnail()) {
 
         ?>
 
-        <a href="<?php  echo esc_url( get_permalink() )  ?>" class="btn btn-primary blog-button mt-3">Read More</a>
+        <a href="<?php  //echo esc_url( get_permalink() )  ?>" class="btn btn-primary blog-button mt-3">Read More</a>
 
     </div><!-- .entry-content -->
+
+
 
 </article><!-- #post-<?php the_ID(); ?> -->
 </div>

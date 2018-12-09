@@ -134,6 +134,11 @@ a.navbar-brand {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.44);
 }
 
+
+
+
+
+
 a.navbar-brand img {
     position: absolute;
     top: -9px;
@@ -523,7 +528,6 @@ a.button-3:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -ms-background-size: cover;
 }
 
 .price-main-info .card-header h4 {
@@ -906,7 +910,7 @@ button.contact-submit {
     }
 
     img.fashion-img {
-        width: 30%;
+        width: 50%;
     }
 }
 
@@ -1556,7 +1560,17 @@ button.contact-submit {
     text-align: justify;
 }
 
-
+.footer_font_style{
+    color: #fff !important;
+    letter-spacing: 4px;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: sans-serif;
+    position: relative;
+    padding-left: 1em;
+    padding-top: 10px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.44);
+}
 
 
 

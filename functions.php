@@ -15,6 +15,24 @@ if ( ! function_exists( 'leashub_setup' ) ) :
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
+
+
+    if ( ! function_exists( 'post_pagination' ) ) :
+        function post_pagination() {
+            global $wp_query;
+            $pager = 999999999; // need an unlikely integer
+
+            echo paginate_links( array(
+                'base' => str_replace( $pager, '%#%', esc_url( get_pagenum_link( $pager ) ) ),
+                'format' => '?paged=%#%',
+                'current' => max( 1, get_query_var('paged') ),
+                'total' => $wp_query->max_num_pages
+            ) );
+        }
+    endif;
+
+
+
 	function leashub_setup() {
 		/*
 		 * Make theme available for translation.
@@ -184,8 +202,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 //custom filed custom filed....................................
 add_filter('acf/settings/remove_wp_meta_box', '__return_false');
-
-
 
 
 

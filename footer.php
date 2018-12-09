@@ -54,8 +54,8 @@
             </div>
             <div class="col-lg-4 footer-grid-wthree mt-lg-0 mt-5">
                 <div class="footer-title">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/logo2.png" class="logo img-fluid" alt="">Leasehub
+                    <a class="footer_font_style" href="index.html">
+                        <img src="images/logo2.png" class="img-fluid" alt="">Leashub
                     </a>
                 </div>
                 <p class="copy-right text-center mt-4">&copy; <?php echo date("Y"); ?> Leashub. All Rights Reserved | Design by

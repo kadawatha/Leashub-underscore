@@ -148,7 +148,7 @@ a.navbar-brand img {
 
 /* navigation */
 .navbar {
-    padding: 1.5em 4em;
+    padding: 1em 3em;
     background: transparent;
 }
 
@@ -313,9 +313,6 @@ nav.navbar.shrink .navbar-toggler {
 }
 
 
-
-
-
 /* //header social */
 
 /* //header */
@@ -330,14 +327,14 @@ nav.navbar.shrink .navbar-toggler {
     -o-background-size: cover;
     -ms-background-size: cover;
     border-radius: 0 0 300px 0;
-    min-height: 52vw;
+    min-height: 40vw;
     position: relative;
 }
 
 img.fashion-img {
     position: absolute;
-    right: 218px;
-    margin-right: -2em;
+    margin-left: 240px;
+    margin-top: -8em;
 }
 
 .banner-agile-text {
@@ -350,7 +347,7 @@ img.fashion-img {
 
 
 h3.text-banner-agile {
-    font-size: 56px;
+    font-size: 76px;
     letter-spacing: 1px;
 }
 
@@ -896,10 +893,15 @@ button.contact-submit {
         padding: 5em 8em;
     }
 
+    img.fashion-img {
+        position: absolute;
+        margin-left: 240px;
+        margin-top: -3em;
+    }
+
     .subscribe-info-w3l input[type="email"] {
         padding: 14px 40px 14px 15px;
     }
-
     .main-banner-w3l-2 {
         min-height: 300px;
         background-position: 0 -136px;
@@ -910,7 +912,7 @@ button.contact-submit {
     }
 
     .banner-agile-text {
-        padding-top: 16em;
+        padding-top: 8em;
     }
 
     img.fashion-img {
@@ -918,9 +920,18 @@ button.contact-submit {
     }
 }
 
-@media(max-width: 1366px) {}
+@media(max-width: 1366px) {
 
-@media(max-width: 1280px) {}
+
+
+}
+
+@media(max-width: 1280px) {
+
+
+
+
+}
 
 @media(max-width: 1080px) {
     .icon-button-w3 i {
@@ -1740,7 +1751,6 @@ a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
-
 
 
 

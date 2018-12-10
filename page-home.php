@@ -7,11 +7,11 @@ get_header();
     <div class="container">
         <div class="banner-text-size-w3ls">
             <h3 class="text-banner-agile text-uppercase text-white font-weight-bold">
-                latest & exclusive collections for Vehicle Lovers
+             Leasing Made Easy
             </h3>
-            <p class="mt-3 mb-5 banner-para-wthree"><span class="text-white font-weight-bold ">2018</span> Trending Styles,
-                Car Fashion.</p>
-            <a href="about.html" class="btn button-style">Read More</a>
+            <p class="mt-3 mb-5 banner-para-wthree">The Better way to get The Car You Want With The Value You Deserve,
+                </p>
+            <a href="https://leasehub.lk/special/" class="btn button-style">Read More</a>
         </div>
     </div>
 </div>

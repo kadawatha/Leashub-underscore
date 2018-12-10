@@ -23,7 +23,7 @@ get_header('new');
         <!-- heading title -->
         <div class="text-center mb-lg-5 mb-4">
             <h3 class="title-wthree mb-2">
-                <span class="mt-2 text-uppercase font-weight-bold">BEST DEALS FROM LEASEHUB</span></h3>
+                <span class="mt-2 font-weight-bold">BEST DEALS <small style="font-size: 22px;font-weight: bold;">from</small> LEASE HuB </span></h3>
         </div>
         <!-- //heading title -->
 

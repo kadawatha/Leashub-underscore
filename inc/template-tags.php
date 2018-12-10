@@ -132,7 +132,7 @@ if ( ! function_exists( 'leashub_post_thumbnail' ) ) :
 
 		<?php else : ?>
 
-		<a class="card-img-top" href="<?php the_permalink(); ?>"  aria-hidden="true" tabindex="-1">
+		<a class="card-img-top" href="#"  aria-hidden="true" tabindex="-1">
 
 
             <?php

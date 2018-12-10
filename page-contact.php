@@ -26,15 +26,11 @@ get_header('new');
                 Get In Touch<span class="mt-2 text-uppercase font-weight-bold">Contact Us</span></h3>
         </div>
         <!-- //heading title -->
-        <div class="row contact-form py-3">
+
             <!-- contact map -->
-            <div class="col-lg-6 map text-center">
-                <h4>Our world wide range of Branches </h4>
-                <img src="<?php bloginfo( 'stylesheet_directory' ) ?>/images/map.jpg" alt="" class="img-fluid" />
-            </div>
             <!-- //contact map -->
             <!-- contact form -->
-            <div class="col-lg-6 wthree-form-left mt-lg-0 mt-5">
+            <div class="wthree-form-left mt-lg-0 mt-5">
                 <div class="contact-top1">
 
 
@@ -46,7 +42,7 @@ get_header('new');
             </div>
             <!-- //contact form -->
         </div>
-    </div>
+
 </section>
 
 

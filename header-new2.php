@@ -33,10 +33,6 @@
 
     <!-- //Meta tag Keywords -->
 
-
-
-
-
     <!-- Custom-Files -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');  ?>/css/bootstrap.css">
     <!-- Bootstrap-Core-CSS -->
@@ -54,9 +50,6 @@
     <link href="//fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin-ext" rel="stylesheet">
     <!-- //Web-Fonts -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-
-
     <?php wp_head(); ?>
 </head>
 
@@ -65,7 +58,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'leashub' ); ?></a>
-    <div class="main-banner-w3l-2">
+    <div class="main-banner-w3l-about">
         <!-- header -->
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -129,12 +122,6 @@
         </header>
         <!-- //header -->
         <!-- banner text -->
-
-
-
-
-
-
 
 
 

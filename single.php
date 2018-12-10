@@ -26,6 +26,34 @@ get_header('new');
             <h3 class="title-wthree mb-2">
                 Some More<span class="mt-2 text-uppercase font-weight-bold">Single Page</span></h3>
         </div>
+
+
+
+
+        <h1 align="center">Start Carosel</h1>
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory');  ?>/css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory');  ?>/css/owl.theme.default.min.css">
+
+        <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/js/owl.carousel.min.js"></script>
+        <script src="<?php bloginfo('template_directory'); ?>js/js.js"></script>
+
+        <div id="sync1" class="owl-carousel owl-theme">
+            <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/pool.jpg" alt="image"></div>
+            <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/pool.jpg" alt="image"></div>
+        </div>
+
+        <div align="center" style="margin: 0 auto;width: 80%">
+            <div id="sync2" class="owl-carousel owl-theme">
+                <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/pool.jpg" alt="image"></div>
+                <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/pool.jpg" alt="image"></div>
+            </div>
+        </div>
+        <h1 align="center">Stop carosel</h1>
+
+
+
+
         <!-- //heading title -->
         <div class="row blog-content">
             <!-- left side -->
@@ -349,8 +377,9 @@ get_header('new');
 
 
 
+
 <?php
-get_footer();
+get_footer('new');
 ?>
 
 

@@ -1,5 +1,5 @@
 <?php
-    get_header('new');
+    get_header('new2');
 ?>
 
 
@@ -20,55 +20,6 @@
 </div>
 <!-- //page details -->
 
-<!-- about -->
-<div class="about-w3l py-5">
-    <div class="container py-xl-5 py-lg-3">
-        <!-- heading title -->
-        <div class="text-center mb-lg-5 mb-4">
-            <h3 class="title-wthree mb-2">
-                Few Words<span class="mt-2 text-uppercase font-weight-bold">About Us</span></h3>
-        </div>
-        <!-- //heading title -->
-        <div class="row">
-            <div class="col-lg-7 about-text-left">
-                <h3 class="about-title mb-md-4 mb-3">Lorem ipsum dolor sit amet</h3>
-                <div class="row">
-                    <div class="col-sm-2 col-3 text-sm-left text-center left-year mt-sm-3 mt-2">
-                        <h3>2010</h3>
-                    </div>
-                    <div class="col-sm-9 col-8 right-text-whtree border-left pl-3">
-                        <p>soluta nobis est eligendi optio cumque nihil impedit quo minus id quo</p>
-                    </div>
-                </div>
-                <div class="row my-4">
-                    <div class="col-sm-2 col-3 text-sm-left text-center  left-year mt-sm-3 mt-2">
-                        <h3>2011</h3>
-                    </div>
-                    <div class="col-sm-9 col-8 right-text-whtree border-left pl-3">
-                        <p>soluta nobis est eligendi optio cumque nihil impedit quo minus id quo</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-2 col-3 text-sm-left text-center left-year mt-sm-3 mt-2">
-                        <h3>2012</h3>
-                    </div>
-                    <div class="col-sm-9 col-8 right-text-whtree border-left pl-3">
-                        <p>soluta nobis est eligendi optio cumque nihil impedit quo minus id quo</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 about-text-right mt-lg-0 mt-5">
-                <h3 class="about-title mb-md-4 mb-3">Our History</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                    veritatis
-                    et quasi architecto beatae</p>
-                <p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- //about -->
 
 
 <?php the_content(); ?>
